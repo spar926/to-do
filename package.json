@@ -1,0 +1,25 @@
+{
+  "name": "to-do",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "concurrently \"npm --prefix ./todo-api run start:dev\" \"npm --prefix ./todo-client run start -- -o\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/spar926/to-do.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/spar926/to-do/issues"
+  },
+  "homepage": "https://github.com/spar926/to-do#readme",
+  "dependencies": {
+    "concurrently": "^9.2.1"
+  }
+}
